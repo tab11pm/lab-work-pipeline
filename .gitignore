@@ -1,0 +1,28 @@
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+.agents/
+.claude/
+.codex/
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Временные файлы и результаты запусков
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+outputs/
+screenshots/
+*.log
